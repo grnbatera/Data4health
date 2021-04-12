@@ -64,4 +64,4 @@ Para este projeto será utilizado um Notebook em  Google Colaboratory e Linguage
 > | Evaluation | Avaliação do modelo de predição de falha de diagnóstico médico  | 31/05 a 04/06 (2 semanas)|
 > | Deployment | Avaliação de metodolgias para implementação no SUS  | 07/06 a 11/06 (1 semana)|
 > | Relatório Final | Confecção do Relatório Final  | 14/06 a 23/06 (1,5 semana)|
-> | Apresentação de Projeto | Avaliação do modelo de predição de falha de diagnóstico médico  | 24/06 e 29/06|
+> | Apresentação de Projeto | Apresentação do Projeto Final da Disciplina | 24/06 e 29/06|
