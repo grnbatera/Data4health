@@ -58,8 +58,8 @@ Para este projeto será utilizado um Notebook em  Google Colaboratory e Linguage
 > |Atividade  | Descrição | Tempo estimado|
 > |--|--|--|
 > | Business Understand | Busca da melhor metodologia para encontrarmos as respostas das perguntas de pesquisa  | 12/04 a 23/04 (2 semanas)|
-> | Data Understanding  | Busca e avaliação dos dados ncessários para a pesquisa   | 26/04 a 07/05 (2 semanas)|
-> | Data Preparation  | Limpeza, uniformização, normalização e adequação da base final de trabalho  | 10/05 a 14/05 (1 semana)|
+> | Data Understanding  | Busca e avaliação dos dados necessários para a pesquisa   | 26/04 a 07/05 (2 semanas)|
+> | Data Preparation  | Limpeza, uniformização, normalização e adequação da base de dados final de trabalho  | 10/05 a 14/05 (1 semana)|
 > | Data Mining  | Mineração dos dados através de análises estatísticas  | 17/05 a 21/05 (1 semana)|
 > | Modeling  | Modelamento de predição de falha de diagnóstico médico através de aprendizado de máquina  | 24/05 a 28/05 (1 semana)|
 > | Evaluation | Avaliação do modelo de predição de falha de diagnóstico médico  | 31/05 a 04/06 (1 semana)|
