@@ -45,7 +45,7 @@ A principal motivação da equipe neste projeto científico é contribuir para u
 
 # Metodologia
 ~~~ 
-Através da metodologia CRISP-DM, os dados coletados serão reunidos, analisados e minerados, nestas etapas, haverá a ênfase na análise estatística e, após isso, através de aprendizado de máquina, se for possível, será criado um modelo de predição de falhas de diagnóstico médico e por fim este modelo será analisado e, se for validado, pode ser implementado como auxílio para profissionais de saúde do SUS.
+Através da metodologia CRISP-DM, os dados coletados serão reunidos, analisados, limpos, minerados (nestas etapas, haverá a ênfase na análise estatística) e, após isso, através de aprendizado de máquina, se for possível, será criado um modelo de predição de falhas de diagnóstico médico e por fim este modelo será analisado e, se for validado, pode ser implementado como auxílio para profissionais de saúde do SUS.
 ~~~ 
 
 # Ferramentas
