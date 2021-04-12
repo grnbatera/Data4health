@@ -50,7 +50,7 @@ Através da metodologia CRISP-DM, os dados coletados serão reunidos, analisados
 
 # Ferramentas
 ~~~ 
-Para este projeto será utilizado um Notebook em  Google Colaboratory e Linguagem de Programação Python 3.0. Por sua vez, dentro da linguagem serão utilizadas as seguintes Bibliotecas: Numpy (para a análise numérica/estatística), Pandas (para manipulação dos dados), MatPlotLib e Seaborn (para visualização dos dados), Keras e TensorFlow (para aprendizado de máquina).
+Para este projeto será utilizado um Notebook em  Google Colaboratory e Linguagem de Programação Python 3.0. Por sua vez, dentro da linguagem serão utilizadas as seguintes Bibliotecas: Numpy (para a análise numérica/estatística), Pandas (para manipulação dos dados), MatPlotLib/Seaborn (para visualização dos dados), Keras/Scikit Learn/TensorFlow (para aprendizado de máquina).
 ~~~ 
 
 # Cronograma
