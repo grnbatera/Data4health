@@ -41,7 +41,7 @@ A principal motivação da equipe neste projeto científico é contribuir para u
 > | [Sistema de Informações Hospitalares do SUS - SIHSUS](https://bigdata-metadados.icict.fiocruz.br/dataset/sistema-de-informacoes-hospitalares-do-sus-sihsus/resource/ae85ac54-6734-43b8-a820-6129a854e1ff) | Fiocruz  | Dados do Sistema de Informações Hospitalares do SUS (SIHSUS) reunidos pela Plataforma de Ciência de Dados aplicada à Saúde (PCDaS)|
 > | [Cadastro Nacional de Estabelecimentos de Saúde - CNES](https://bigdata-metadados.icict.fiocruz.br/dataset/cadastro-nacional-de-estabelecimentos-de-saude-cnes/resource/7bcf4f68-f2e9-4e06-87b5-229358702efc)  | Fiocruz  | Dados do Cadastro Nacional de Estabelecimentos de Saúde (CNES) reunidos pela Plataforma de Ciência de Dados aplicada à Saúde (PCDaS)|
 > | [Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde - CID-10](http://www2.datasus.gov.br/cid10/V2008/cid10.htm)  | DataSUS  | CID - 10 em Língua Portuguesa e colaborativa com a OMS|
-> | [Estatíticas Sociais - IBGE](https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html)  | IBGE  | Dados referentes ao padrão de vida da população brasileira|
+> | [Estatísticas Sociais - IBGE](https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html)  | IBGE  | Dados referentes ao padrão de vida da população brasileira|
 
 # Metodologia
 ~~~ 
