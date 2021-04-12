@@ -24,7 +24,7 @@ Neste contexto, o projeto busca compreender melhor quais são os impactos que as
 A principal motivação da equipe neste projeto científico é contribuir para um melhor atendimento aos pacientes, que são os principais afetados, auxiliar os profissionais médicos alertando-os sobre a possibilidade de falha de diagnóstico e, por fim, auxiliar no uso mais racional de recursos, evitando as custas causadas pelas falhas de diagnóstico.
 ~~~
 ### Vídeo de apresentação da proposta do projeto
-[![Projeto IT305G](https://github.com/grnbatera/IT305G/blob/main/Mídias/thumb.jpg)](http://bit.ly/youtubeIT305G)
+[![Projeto Saúde](https://github.com/grnbatera/Data4health/blob/main/Mídias/thumb.JPG)](https://www.youtube.com/watch?v=AYZ8yBdD8Ds)
 
 
 # Perguntas de Pesquisa
