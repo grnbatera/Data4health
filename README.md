@@ -57,11 +57,11 @@ Para este projeto será utilizado um Notebook em  Google Colaboratory e Linguage
 > Proposta de cronograma:
 > |Atividade  | Descrição | Tempo estimado|
 > |--|--|--|
-> | Business Understand | Busca da melhor metodologia para encontrarmos as respostas das perguntas de pesquisa  | 12/04 a 23/04 (2 semanas)|
-> | Data Understanding  | Busca e avaliação dos dados necessários para a pesquisa   | 26/04 a 07/05 (2 semanas)|
-> | Data Preparation  | Limpeza, uniformização, normalização e adequação da base de dados final de trabalho  | 10/05 a 14/05 (1 semana)|
-> | Data Mining  | Mineração dos dados através de análises estatísticas  | 17/05 a 21/05 (1 semana)|
-> | Modeling  | Modelamento de predição de falha de diagnóstico médico através de aprendizado de máquina  | 24/05 a 28/05 (1 semana)|
+> | Business Understand | Busca da melhor metodologia para encontrarmos as respostas das perguntas de pesquisa  | 12/04 a 16/04 (1 semana)|
+> | Data Understanding  | Busca e avaliação dos dados necessários para a pesquisa   | 19/04 a 23/04 (1 semana)|
+> | Data Preparation  | Limpeza, uniformização, normalização e adequação da base de dados final de trabalho  | 26/04 a 07/05 (2 semanas)|
+> | Data Mining  | Mineração dos dados através de análises estatísticas  | 10/05 a 19/05 (1,5 semana)|
+> | Modeling  | Modelamento de predição de falha de diagnóstico médico através de aprendizado de máquina  | 20/05 a 28/05 (1,5 semana)|
 > | Evaluation | Avaliação do modelo de predição de falha de diagnóstico médico  | 31/05 a 04/06 (1 semana)|
 > | Deployment | Avaliação de metodolgias para implementação no SUS  | 07/06 a 11/06 (1 semana)|
 > | Relatório Final | Confecção do Relatório Final  | 14/06 a 23/06 (1,5 semana)|
