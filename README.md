@@ -18,21 +18,21 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 
 # Descrição Resumida do Projeto
-~~~ 
-As falhas de diagnóstico médico são responsáveis, num primeiro momento, por consequências aos indivíduos que foram vitimadas por estas falhas, todavia, até onde se estendem essas consequências? 
-Neste contexto, o projeto busca compreender melhor quais são os impactos que as falhas trazem ao Sistema Único de Saúde, se é possível mitigar os resultados negativos e auxiliar na predição de casos de falha de diagnóstico através do Aprendizado de Máquina.
-A principal motivação da equipe neste projeto científico é contribuir para um melhor atendimento aos pacientes, que são os principais afetados, auxiliar os profissionais médicos alertando-os sobre a possibilidade de falha de diagnóstico e, por fim, auxiliar no uso mais racional de recursos, evitando as custas causadas pelas falhas de diagnóstico.
-~~~
+
+> As falhas de diagnóstico médico são responsáveis, num primeiro momento, por consequências aos indivíduos que foram vitimadas por estas falhas, todavia, até onde se estendem essas consequências? 
+> Neste contexto, o projeto busca compreender melhor quais são os impactos que as falhas trazem ao Sistema Único de Saúde, se é possível mitigar os resultados negativos e auxiliar na predição de casos de falha de diagnóstico através do Aprendizado de Máquina.
+> A principal motivação da equipe neste projeto científico é contribuir para um melhor atendimento aos pacientes, que são os principais afetados, auxiliar os profissionais médicos alertando-os sobre a possibilidade de falha de diagnóstico e, por fim, auxiliar no uso mais racional de recursos, evitando as custas causadas pelas falhas de > diagnóstico.
+
 ### Vídeo de apresentação da proposta do projeto
 [![Projeto Saúde](https://github.com/grnbatera/Data4health/blob/main/Mídias/thumb.JPG)](https://www.youtube.com/watch?v=AYZ8yBdD8Ds)
 
 
 # Perguntas de Pesquisa
-~~~ 
-1) Qual é a extensão do impacto causado pelas falhas de dignóstico médico dentro do Sistema Único de Saúde do Brasil?
-2) Uma vez conhecida esta extensão, é possível propor um método de predição de casos de falha de diagnóstico em Machine/Deep Learning?
-3) Sendo possível essa predição, esse método de fato seria útil, de fácil acesso e amigável para os profissionais do SUS?
-~~~ 
+
+> 1) Qual é a extensão do impacto causado pelas falhas de dignóstico médico dentro do Sistema Único de Saúde do Brasil?
+> 2) Uma vez conhecida esta extensão, é possível propor um método de predição de casos de falha de diagnóstico em Machine/Deep Learning?
+> 3) Sendo possível essa predição, esse método de fato seria útil, de fácil acesso e amigável para os profissionais do SUS?
+ 
 
 # Bases de Dados
 > Neste primeiro momento, as bases elencadas são:
@@ -44,14 +44,14 @@ A principal motivação da equipe neste projeto científico é contribuir para u
 > | [Estatísticas Sociais - IBGE](https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html)  | IBGE  | Dados referentes ao padrão de vida da população brasileira|
 
 # Metodologia
-~~~ 
-Através da metodologia CRISP-DM, os dados coletados serão reunidos, analisados, limpos, minerados (nestas etapas, haverá a ênfase na análise estatística) e, após isso, através de aprendizado de máquina, se for possível, será criado um modelo de predição de falhas de diagnóstico médico e por fim este modelo será analisado e, se for validado, pode ser implementado como auxílio para profissionais de saúde do SUS.
-~~~ 
+ 
+> Através da metodologia CRISP-DM, os dados coletados serão reunidos, analisados, limpos, minerados (nestas etapas, haverá a ênfase na análise estatística) e, após isso, através de aprendizado de máquina, se for possível, será criado um modelo de predição de falhas de diagnóstico médico e por fim este modelo será analisado e, se for validado, pode ser implementado como auxílio para profissionais de saúde do SUS.
+ 
 
 # Ferramentas
-~~~ 
-Para este projeto será utilizado um Notebook em  Google Colaboratory e Linguagem de Programação Python 3.0. Por sua vez, dentro da linguagem serão utilizadas as seguintes Bibliotecas: Numpy (para a análise numérica/estatística), Pandas (para manipulação dos dados), MatPlotLib/Seaborn (para visualização dos dados), Keras/Scikit Learn/TensorFlow (para aprendizado de máquina).
-~~~ 
+
+> Para este projeto será utilizado um Notebook em  Google Colaboratory e Linguagem de Programação Python 3.0. Por sua vez, dentro da linguagem serão utilizadas as seguintes Bibliotecas: Numpy (para a análise numérica/estatística), Pandas (para manipulação dos dados), MatPlotLib/Seaborn (para visualização dos dados), Keras/Scikit Learn/TensorFlow (para aprendizado de máquina).
+> 
 
 # Cronograma
 > Proposta de cronograma:
