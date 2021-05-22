@@ -1,7 +1,45 @@
-# Ciência e Visualização de Dados - Primeira Entrega
+# Ciência e Visualização de Dados - Segunda Entrega
 
 # Projeto `Falhas de Diagnóstico Médico e os Impactos no Sistema Único de Saúde Brasileiro`
 # Project `Medical Diagnostic Failures and the Impacts on the Brazilian Unified Health System`
+
+Estrutura [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/) do Projeto:
+
+~~~
+├── README.md          <- apresentação do projeto
+│
+├── data
+│   ├── processed      <- dados finais usados para a modelagem
+│   └── raw            <- dados originais sem modificações
+│
+├── notebooks          <- Jupyter notebooks ou equivalentes
+│
+├── src                <- fonte em linguagem de programação ou sistema (e.g., Orange)
+│   └── README.md      <- instruções básicas de instalação/execução
+│
+└── assets             <- mídias usadas no projeto
+~~~
+
+## `data`
+
+Dados utilizados no projeto respeitadas as possíveis implicações éticas, se você tiver licença para tal e se o volume for suportado pelo Github. Você pode optar por colocar um subconjunto ilustrativo dos dados.
+
+É importante que sejam colocados os dados originais (se for possível) para garantir a reprodutibilidade do processo. Os originais são colocados na subpasta `raw` se forem produzidos pela equipe e na subpasta `external` se forem de terceiros. Também podem ser colocados aqui dados intermediários (por exemplo, dados tratados, resumidos etc.) na pasta `interim`. Finalmente, coloque os dados finais que serviram de entrada para as suas análises na subpasta `processed`.
+
+## `notebooks`
+
+Código do seu projeto que pode ser executado online sem instalação de software, tal como um notebook em Jupyter ou equivalente.
+
+## `src`
+
+Código em alguma linguagem ou projeto em Orange, Weka e similares.
+
+Se for código em linguagem de programação, tente organizá-lo de forma que seja simples a sua execução por terceiros, por exemplo, acrescente as bibliotecas necessárias etc. Acrescente na raiz um arquivo `README.md` com as instruções básicas de instalação e execução.
+
+## `assets`
+
+Qualquer mídia usada no seu projeto: vídeo, ilustrações, arquivos PDF etc.
+
 
 # Apresentação
 
