@@ -155,8 +155,8 @@ v152,Tipo de diagnóstico secundário 8
 v153,Tipo de diagnóstico secundário 9
 v154,Tipo de diagnóstico secundário 9
 v155,Código do município de residência do paciente
-v156,Nome (acentuado, maiúsculas e minúsculas) do Município (padrão DOS, página de código 850) de residência do paciente
-v157,Nome (sem acentos, em maiúsculas) do Município de residência do paciente
+v156,Nome (acentuado - maiúsculas e minúsculas) do Município (padrão DOS - página de código 850) de residência do paciente
+v157,Nome (sem acentos - em maiúsculas) do Município de residência do paciente
 v158,Indica (S ou N) se o município de residência do paciente que foi à óbito faz parte da Amazônia Legal (conforme IBGE)
 v159,Indica (S ou N) se o município de residência do paciente faz parte da faixa de fronteira (conforme IBGE)
 v160,Indica (S ou N) se o município de residência do paciente é capital da UF
@@ -166,7 +166,7 @@ v163,Código da Microrregional de Saúde a que o Município de residência do pa
 v164,Latitude da sede do Município de residência do paciente
 v165,Longitude da sede do Município de residência do paciente
 v166,Altitude - em metros - da sede do Município de residência do paciente
-v167,Área -  em quilômetros quadrados - do Município de residência do paciente - segundo a Resolução 05 - de 10/12/2002, do IBGE
+v167,Área -  em quilômetros quadrados - do Município de residência do paciente - segundo a Resolução 05 - de 10/12/2002 - do IBGE
 v168,Armazena o código atribuído ao município de residência do paciente - tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
 v169,Armazena o código atribuído ao município de residência do paciente - tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
 v170,Código do município do estabelecimento de internação
