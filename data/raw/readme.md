@@ -2,8 +2,8 @@
 
 Como as bases de dados seleconadas na etapa anterior se tratavam de Big Data, houve a necessidade de readequação para uso dos recursos computacionais e nível de conhecmento do grupo, desta forma, os dados raw estão disponíveis nos seguintes links: 
 
-# Bases de Dados
-> Nesta etapa, as bases elencadas são:
+# Bases de Dados Raw:
+> Nesta etapa, as bases efetivamente utilizadas foram:
 > |Base de Dados  | Fonte | Descrição|
 > |--|--|--|
 > | [Sistema de Informações Hospitalares do SUS - SIHSUS](https://bigdata-metadados.icict.fiocruz.br/dataset/sistema-de-informacoes-hospitalares-do-sus-sihsus/resource/ae85ac54-6734-43b8-a820-6129a854e1ff) | Fiocruz  | Dados do Sistema de Informações Hospitalares do SUS (SIHSUS) reunidos pela Plataforma de Ciência de Dados aplicada à Saúde (PCDaS)|
