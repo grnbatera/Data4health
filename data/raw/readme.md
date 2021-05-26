@@ -1,6 +1,6 @@
 # Projeto - Segunda Entrega (Análise Exploratória)
 
-Como as bases de dados seleconadas na etapa anterior se tratavam de Big Data, houve a necessidade de readequação para uso dos recursos computacionais e nível de conhecmento do grupo, desta forma, como o limite de armazenamento do GitHub é de 125Mb, os dados raw estão disponíveis nos links abaixo e possuem este [Dicionário de Variáveis](assets/Dicionário de Variáveis Banco Original.csv): 
+Como as bases de dados seleconadas na etapa anterior se tratavam de Big Data, houve a necessidade de readequação para uso dos recursos computacionais e nível de conhecmento do grupo, desta forma, como o limite de armazenamento do GitHub é de 125Mb, os dados raw estão disponíveis nos links abaixo e possuem este [Dicionário de Variáveis](https://github.com/grnbatera/Data4health/blob/main/assets/Dicion%C3%A1rio%20de%20Vari%C3%A1veis%20Banco%20Original.csv): 
 
 # Bases de Dados Raw:
 > Nesta etapa, as bases efetivamente utilizadas foram:
