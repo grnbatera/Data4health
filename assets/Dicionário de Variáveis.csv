@@ -52,8 +52,8 @@ v49,Código do diagnóstico secundário (CID10)
 v50,Motivo de saída/permanência
 v51,Definição do motivo de saída/permanência
 v52,Natureza jurídica do hospital
-v53,Definição da natureza-regime
-v54,Natureza jurídica do estabelecimento, conforme a Comissão Nacional de Classificação (CONCLA)
+v53,Definição da natureza (regime)
+v54,Natureza jurídica do estabelecimento conforme a Comissão Nacional de Classificação (CONCLA)
 v55,Definição da natureza jurídica
 v56,Indica o tipo de gestão do hospital
 v57,Definição do tipo de gestão do hospital
@@ -115,15 +115,15 @@ v112,Regra contratual
 v113,Definição da regra contratual
 v114,Raça/cor do paciente
 v115,Definição de raça/cor do paciente
-v116,Etnia do paciente, se raça cor for indígena
+v116,Etnia do paciente se raça cor for indígena
 v117,Sequencial da AIH na remessa
 v118,Número da remessa
 v119,Justificativa do auditor para aceitação da AIH sem o número do Cartão Nacional de Saúde
 v120,Justificativa do estabelecimento para aceitação da AIH sem o número do Cartão Nacional de Saúde
-v121,Valor do complemento federal de serviços hospitalares. Está incluído no valor total da AIH
-v122,Valor do complemento federal de serviços profissionais. Está incluído no valor total da AIH
-v123,Valor do complemento do gestor (estadual ou municipal) de serviços hospitalares. Está incluído no valor total da AIH
-v124,Valor do complemento do gestor (estadual ou municipal) de serviços profissionais. Está incluído no valor total da AIH
+v121,Valor do complemento federal de serviços hospitalares - Está incluído no valor total da AIH
+v122,Valor do complemento federal de serviços profissionais -  Está incluído no valor total da AIH
+v123,Valor do complemento do gestor (estadual ou municipal) de serviços hospitalares -  Está incluído no valor total da AIH
+v124,Valor do complemento do gestor (estadual ou municipal) de serviços profissionais - Está incluído no valor total da AIH
 v125,Valor de UCI
 v126,Tipo de UCI utilizada pelo paciente
 v127,Definição do tipo de UCI utilizada pelo paciente
@@ -165,13 +165,13 @@ v162,Código da Regional de Saúde a que o Município de residência do paciente
 v163,Código da Microrregional de Saúde a que o Município de residência do paciente pertence
 v164,Latitude da sede do Município de residência do paciente
 v165,Longitude da sede do Município de residência do paciente
-v166,Altitude, em metros, da sede do Município de residência do paciente
-v167,Área, em quilômetros quadrados, do Município de residência do paciente, segundo a Resolução 05, de 10/12/2002, do IBGE
-v168,Armazena o código atribuído ao município de residência do paciente, tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
-v169,Armazena o código atribuído ao município de residência do paciente, tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
+v166,Altitude - em metros - da sede do Município de residência do paciente
+v167,Área -  em quilômetros quadrados - do Município de residência do paciente - segundo a Resolução 05 - de 10/12/2002, do IBGE
+v168,Armazena o código atribuído ao município de residência do paciente - tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
+v169,Armazena o código atribuído ao município de residência do paciente - tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
 v170,Código do município do estabelecimento de internação
-v171,Nome (acentuado, maiúsculas e minúsculas) do Município (padrão DOS, página de código 850) do estabelecimento de internação
-v172,Nome (sem acentos, em maiúsculas) do Município do estabelecimento de internação
+v171,Nome (acentuado - maiúsculas e minúsculas) do Município (padrão DOS - página de código 850) do estabelecimento de internação
+v172,Nome (sem acentos - em maiúsculas) do Município do estabelecimento de internação
 v173,Indica (S ou N) se o município do estabelecimento de internação que foi à óbito faz parte da Amazônia Legal (conforme IBGE)
 v174,Indica (S ou N) se o município do estabelecimento de internação faz parte da faixa de fronteira (conforme IBGE)
 v175,Indica (S ou N) se o município do estabelecimento de internação é capital da UF
@@ -180,10 +180,10 @@ v177,Código da Regional de Saúde a que o Município do estabelecimento de inte
 v178,Código da Microrregional de Saúde a que o Município do estabelecimento de internação
 v179,Latitude da sede do Município do estabelecimento de internação
 v180,Longitude da sede do Município do estabelecimento de internação
-v181,Altitude, em metros, da sede do Município do estabelecimento de internação
-v182,Área, em quilômetros quadrados, do Município do estabelecimento de internação, segundo a Resolução 05, de 10/12/2002, do IBGE
-v183,Armazena o código atribuído ao município do estabelecimento de internação, tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
-v184,Armazena o código atribuído ao município do estabelecimento de internação, tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
+v181,Altitude - em metros - da sede do Município do estabelecimento de internação
+v182,Área - em quilômetros quadrados - do Município do estabelecimento de internação - segundo a Resolução 05 - de 10/12/2002 - do IBGE
+v183,Armazena o código atribuído ao município do estabelecimento de internação - tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
+v184,Armazena o código atribuído ao município do estabelecimento de internação - tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
 v185,Sigla da unidade da federação de residência do paciente
 v186,Código IBGE da Unidade da Federação de residência do paciente
 v187,Nome da unidade da federação de residência da pessoa que foi à óbito
