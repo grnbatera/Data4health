@@ -1,0 +1,263 @@
+Variável,Descrição
+v0,Município gestor
+v1,Ano de processamento da AIH
+v2,Mês de processamento da AIH
+v3,Especialidade do leito
+v4,CNPJ do estabelecimento
+v5,Número da AIH
+v6,Definição da identificação da AIH
+v7,Definição do número da AIH
+v8,Identificação do tipo da AIH
+v9,Definição da identificação do tipo da AIH
+v10,CEP do paciente
+v11,Município de residência do paciente
+v12,Código da UF de residência do paciente
+v13,Data de nascimento do paciente
+v14,Sexo do paciente
+v15,Definição do sexo do paciente
+v16,Sem descrição
+v17,Sem descrição
+v18,Sem descrição
+v19,Quantidade de dias de UTI no mês
+v20,Definição do número de dias de UTI no mês
+v21,Definição de diárias de UTI
+v22,Indica qual o tipo de UTI utilizada pelo paciente
+v23,Definição do tipo de UTI utilizada pelo paciente
+v24,Sem descrição
+v25,Sem descrição
+v26,Sem descrição
+v27,Quantidade de diárias em unidade intermediária
+v28,Quantidade de diárias de acompanhante
+v29,Quantidade de diárias
+v30,Procedimento solicitado
+v31,Procedimento realizado
+v32,Valor de serviços hospitalares
+v33,Valor de serviços profissionais
+v34,Sem descrição
+v35,Sem descrição
+v36,Sem descrição
+v37,Sem descrição
+v38,Sem descrição
+v39,Sem descrição
+v40,Sem descrição
+v41,Sem descrição
+v42,Sem descrição
+v43,Valor total da AIH
+v44,Valor de UTI
+v45,Valor total, em dólar
+v46,Data de internação
+v47,Data de saída
+v48,Código do diagnóstico principal (CID10)
+v49,Código do diagnóstico secundário (CID10)
+v50,Motivo de saída/permanência
+v51,Definição do motivo de saída/permanência
+v52,Natureza jurídica do hospital
+v53,Definição da natureza (regime)
+v54,Natureza jurídica do estabelecimento, conforme a Comissão Nacional de Classificação (CONCLA)
+v55,Definição da natureza jurídica
+v56,Indica o tipo de gestão do hospital
+v57,Definição do tipo de gestão do hospital
+v58,Sem descrição
+v59,Indica exame VDRL
+v60,Definição de exame VDRL
+v61,Município do estabelecimento
+v62,Código da UF do estabelecimento
+v63,Unidade de medida da idade
+v64,Definição da unidade de medida da idade
+v65,Idade
+v66,Dias de permanência
+v67,Definição de dias de permanência
+v68,Indica óbito
+v69,Definição de óbito
+v70,Código da nacionalidade do paciente
+v71,Sem descrição
+v72,Caráter da internação
+v73,Definição do caráter da internação
+v74,Sem descrição
+v75,Sem descrição
+v76,Indicador se o paciente da AIH é homônimo do paciente de outra AIH
+v77,Definição do indicador de homônimo
+v78,Número de filhos do paciente
+v79,Definição do número de filhos do paciente
+v80,Grau de instrução do paciente
+v81,Definição do grau de instrução do paciente
+v82,CID de notificação
+v83,Tipo de contraceptivo utilizado
+v84,Definição do tipo de contraceptivo utilizado
+v85,Segundo tipo de contraceptivo utilizado
+v86,Definição do segundo tipo de contraceptivo utilizado
+v87,Indicador se é gestante de risco
+v88,Definição da gestão de risco
+v89,Número da gestante no pré-natal
+v90,Sequencial de longa permanência
+v91,Definição do sequencial de longa permanência
+v92,Ocupação do paciente, segundo a Classificação Brasileira de Ocupações (CBO)
+v93,Código de acidente de trabalho
+v94,Vínculo com a previdência
+v95,Definição do vínculo da previdência
+v96,Motivo de autorização da AIH pelo gestor
+v97,Tipo de gestor
+v98,Número do CPF do gestor
+v99,Data da autorização dada pelo gestor
+v100,Código CNES do hospital
+v101,CNPJ da mantenedora
+v102,Status de infecção hospitalar
+v103,Definição de infecção hospitalar
+v104,CID causa
+v105,CID da morte
+v106,Complexidade
+v107,Definição de complexidade
+v108,Tipo de financiamento
+v109,Definição do tipo de financiamento
+v110,Subtipo de financiamento FAEC
+v111,Definição do subtipo de financiamento FAEC
+v112,Regra contratual
+v113,Definição da regra contratual
+v114,Raça/cor do paciente
+v115,Definição de raça/cor do paciente
+v116,Etnia do paciente, se raça cor for indígena
+v117,Sequencial da AIH na remessa
+v118,Número da remessa
+v119,Justificativa do auditor para aceitação da AIH sem o número do Cartão Nacional de Saúde
+v120,Justificativa do estabelecimento para aceitação da AIH sem o número do Cartão Nacional de Saúde
+v121,Valor do complemento federal de serviços hospitalares. Está incluído no valor total da AIH
+v122,Valor do complemento federal de serviços profissionais. Está incluído no valor total da AIH
+v123,Valor do complemento do gestor (estadual ou municipal) de serviços hospitalares. Está incluído no valor total da AIH
+v124,Valor do complemento do gestor (estadual ou municipal) de serviços profissionais. Está incluído no valor total da AIH
+v125,Valor de UCI
+v126,Tipo de UCI utilizada pelo paciente
+v127,Definição do tipo de UCI utilizada pelo paciente
+v128,Diagnóstico secundário 1
+v129,Diagnóstico secundário 2
+v130,Diagnóstico secundário 3
+v131,Diagnóstico secundário 4
+v132,Diagnóstico secundário 5
+v133,Diagnóstico secundário 6
+v134,Diagnóstico secundário 7
+v135,Diagnóstico secundário 8
+v136,Diagnóstico secundário 9
+v137,Tipo de diagnóstico secundário 1
+v138,Tipo de diagnóstico secundário 1
+v139,Tipo de diagnóstico secundário 2
+v140,Tipo de diagnóstico secundário 2
+v141,Tipo de diagnóstico secundário 3
+v142,Tipo de diagnóstico secundário 3
+v143,Tipo de diagnóstico secundário 4
+v144,Tipo de diagnóstico secundário 4
+v145,Tipo de diagnóstico secundário 5
+v146,Tipo de diagnóstico secundário 5
+v147,Tipo de diagnóstico secundário 6
+v148,Tipo de diagnóstico secundário 6
+v149,Tipo de diagnóstico secundário 7
+v150,Tipo de diagnóstico secundário 7
+v151,Tipo de diagnóstico secundário 8
+v152,Tipo de diagnóstico secundário 8
+v153,Tipo de diagnóstico secundário 9
+v154,Tipo de diagnóstico secundário 9
+v155,Código do município de residência do paciente
+v156,Nome (acentuado, maiúsculas e minúsculas) do Município (padrão DOS, página de código 850) de residência do paciente
+v157,Nome (sem acentos, em maiúsculas) do Município de residência do paciente
+v158,Indica (S ou N) se o município de residência do paciente que foi à óbito faz parte da Amazônia Legal (conforme IBGE)
+v159,Indica (S ou N) se o município de residência do paciente faz parte da faixa de fronteira (conforme IBGE)
+v160,Indica (S ou N) se o município de residência do paciente é capital da UF
+v161,Código da Macrorregional de Saúde a que o Município de residência do paciente que foi à óbito pertence
+v162,Código da Regional de Saúde a que o Município de residência do paciente pertence
+v163,Código da Microrregional de Saúde a que o Município de residência do paciente pertence
+v164,Latitude da sede do Município de residência do paciente
+v165,Longitude da sede do Município de residência do paciente
+v166,Altitude, em metros, da sede do Município de residência do paciente
+v167,Área, em quilômetros quadrados, do Município de residência do paciente, segundo a Resolução 05, de 10/12/2002, do IBGE
+v168,Armazena o código atribuído ao município de residência do paciente, tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
+v169,Armazena o código atribuído ao município de residência do paciente, tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
+v170,Código do município do estabelecimento de internação
+v171,Nome (acentuado, maiúsculas e minúsculas) do Município (padrão DOS, página de código 850) do estabelecimento de internação
+v172,Nome (sem acentos, em maiúsculas) do Município do estabelecimento de internação
+v173,Indica (S ou N) se o município do estabelecimento de internação que foi à óbito faz parte da Amazônia Legal (conforme IBGE)
+v174,Indica (S ou N) se o município do estabelecimento de internação faz parte da faixa de fronteira (conforme IBGE)
+v175,Indica (S ou N) se o município do estabelecimento de internação é capital da UF
+v176,Código da Macrorregional de Saúde a que o Município do estabelecimento de internação que foi à óbito pertence
+v177,Código da Regional de Saúde a que o Município do estabelecimento de internação
+v178,Código da Microrregional de Saúde a que o Município do estabelecimento de internação
+v179,Latitude da sede do Município do estabelecimento de internação
+v180,Longitude da sede do Município do estabelecimento de internação
+v181,Altitude, em metros, da sede do Município do estabelecimento de internação
+v182,Área, em quilômetros quadrados, do Município do estabelecimento de internação, segundo a Resolução 05, de 10/12/2002, do IBGE
+v183,Armazena o código atribuído ao município do estabelecimento de internação, tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
+v184,Armazena o código atribuído ao município do estabelecimento de internação, tratando os casos em que múltiplos códigos tenham sido utilizados para um mesmo município ao longo do tempo
+v185,Sigla da unidade da federação de residência do paciente
+v186,Código IBGE da Unidade da Federação de residência do paciente
+v187,Nome da unidade da federação de residência da pessoa que foi à óbito
+v188,Sigla da unidade da federação do estabelecimeto de internação
+v189,Código IBGE da Unidade da Federação do estabelecimento de internação
+v190,Coordenadas do município de residência do paciente
+v191,Coordenadas do município do estabelecimento de internação
+v192,Região do estabelecimento de internação
+v193,Região de residência do pacient
+v194,Unidade da federação do estabelecimento de internação
+v195,Sigla da unidade da federação do estabelecimeto de internação
+v196,Unidade da federação de residência do paciente
+v197,Sigla da unidade da federação de residência do paciente
+v198,Município do estabelecimento de internação
+v199,Município de residência do paciente
+v200,Região metropolitana do estabelecimento de internação
+v201,Região metropolitana de residência do paciente
+v202,Comissão Intergestora Regional do estabelecimento de internação
+v203,Comissão Intergestora Regional da residência do paciente
+v204,AGL do estabelecimento de internação
+v205,AGL de residência do paciente
+v206,Mesorregião do estabelecimento de internação
+v207,Mesorregião de residência do paciente
+v208,Microrregião de residência do paciente
+v209,Região de saúde do estabelecimento de internação
+v210,Região de saúde de residência do paciente
+v211,CSAUDE do estabelecimento de internação
+v212,CSAUDE de residência do paciente
+v213,Definição de esfera jurídica
+v214,Definição de etnia
+v215,Definição de nacionalidade
+v216,Definição da Classificação Brasileira de Ocupações (CBO)
+v217,Definição do Classificação Nacional de Atividades Econômicas
+v218,Definição de leitos
+v219,Definição do procedimento realizado
+v220,Definição do procedimento solicitado
+v221,Idade em anos
+v222,Definição de faixa etária 1
+v223,Definição de faixa etária 2
+v224,Definição de faixa etária 3
+v225,Definição do capítulo do diagnóstico principal
+v226,Definição do grupo do diagnóstico principal
+v227,Definição da categoria do diagnóstico principal
+v228,Definição da sub categoria do diagnóstico principal
+v229,Definição do capítulo do primeiro diagnóstico secundário
+v230,Definição do grupo do primeiro diagnóstico secundário
+v231,Definição da categoria do primeiro diagnóstico secundário
+v232,Definição da sub categoria do primeiro diagnóstico secundário
+v233,Data de internação
+v234,Ano de internação
+v235,Dia da semana de internação
+v236,Data de saída
+v237,Ano de saída
+v238,Dia da semana da saída
+v239,Idade em anos pelo ano de nascimento
+v241,Município
+v242,AIH aprovadas
+v243,Internações
+v244,Valor total
+v245,Valor serviços hospitalares
+v246,Valor serviços profissionais
+v247,Valor médio AIH
+v248,Valor médio intern
+v249,Dias permanência
+v250,Média permanência
+v251,Óbitos
+v252,Taxa mortalidade
+v253,Grupo do CID10 do Diagnóstico Principal
+v254,Grupo do CID10 do Diagnóstico Secundário
+v255,Grupo do CID10 do Diagnóstico Feito por Socorrista
+v256,Grupo do CID10 do Diagnóstico Primário de Causa da Morte
+v257,Grupo do CID10 do Diagnóstico Final de Causa da Morte
+v258,Análise de Falha de Diagnóstco
+v259,Condição de Óbito
+v260,Total de Dias de Internação
+v261,Custo Médio por Dia de Internação
+v262,Custo Médio da Internação
