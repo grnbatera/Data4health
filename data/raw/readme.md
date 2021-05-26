@@ -1,6 +1,6 @@
 # Projeto - Segunda Entrega (Análise Exploratória)
 
-Como as bases de dados seleconadas na etapa anterior se tratavam de Big Data, houve a necessidade de readequação para uso dos recursos computacionais e nível de conhecmento do grupo, desta forma, como o limite de armazenamento do GitHub é de 125Mb, os dados raw estão disponíveis nos seguintes links: 
+Como as bases de dados seleconadas na etapa anterior se tratavam de Big Data, houve a necessidade de readequação para uso dos recursos computacionais e nível de conhecmento do grupo, desta forma, como o limite de armazenamento do GitHub é de 125Mb, os dados raw estão disponíveis nos links abaixo e possuem este [Dicionário de Variáveis](assets/Dicionário de Variáveis Banco Original.csv): 
 
 # Bases de Dados Raw:
 > Nesta etapa, as bases efetivamente utilizadas foram:
