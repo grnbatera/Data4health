@@ -1097,7 +1097,7 @@ O23,Infecções do trato geniturinário na gravidez
 O24,Diabetes mellitus na gravidez
 O25,Desnutrição na gravidez
 O26,Assistência materna por outras complicações ligadas predominantemente à gravidez
-O28,Achados anormais do rastreamento ["screening"] antenatal da mãe
+O28,Achados anormais do rastreamento [screening] antenatal da mãe
 O29,Complicações de anestesia administrada durante a gravidez
 O30,Gestação múltipla
 O31,Complicações específicas de gestação múltipla
@@ -1583,7 +1583,7 @@ T97,Seqüelas de efeitos tóxicos de substâncias de origem predominantemente n�
 T98,Seqüelas de outros efeitos de causas externas e dos não especificados
 V01,Pedestre traumatizado em colisão com um veículo a pedal
 V02,Pedestre traumatizado em colisão com um veículo a motor de duas ou três rodas
-V03,Pedestre traumatizado em colisão com um automóvel [carro] -  "pick up" ou caminhonete
+V03,Pedestre traumatizado em colisão com um automóvel [carro] -  pick up ou caminhonete
 V04,Pedestre traumatizado em colisão com um veículo de transporte pesado ou com um ônibus
 V05,Pedestre traumatizado em colisão com trem [comboio] ou um veículo ferroviário
 V06,Pedestre traumatizado em colisão com outro veículo não-motorizado
@@ -1591,7 +1591,7 @@ V09,Pedestre traumatizado em outros acidentes de transporte e em acidentes de tr
 V10,Ciclista traumatizado em colisão com um pedestre ou um animal
 V11,Ciclista traumatizado em colisão com outro veículo a pedal
 V12,Ciclista traumatizado em colisão com um veículo a motor de duas ou três rodas
-V13,Ciclista traumatizado em colisão com um automóvel -  "pick up" ou caminhonete
+V13,Ciclista traumatizado em colisão com um automóvel -  pick up ou caminhonete
 V14,Ciclista traumatizado em colisão com um veículo de transporte pesado ou um ônibus
 V15,Ciclista traumatizado em colisão com um trem ou um veículo ferroviário
 V16,Ciclista traumatizado em colisão com outro veículo não-motorizado
@@ -1601,7 +1601,7 @@ V19,Ciclista traumatizado em outros acidentes de transporte e em acidentes de tr
 V20,Motociclista traumatizado em colisão com um pedestre ou um animal
 V21,Motociclista traumatizado em colisão com um veículo a pedal
 V22,Motociclista traumatizado em colisão com um veículo a motor de duas ou três rodas
-V23,Motociclista traumatizado em colisão com um automóvel [carro] -  "pick up" ou caminhonete
+V23,Motociclista traumatizado em colisão com um automóvel [carro] -  pick up ou caminhonete
 V24,Motociclista traumatizado em colisão com um veículo de transporte pesado ou um ônibus
 V25,Motociclista traumatizado em colisão com um trem ou um veículo ferroviário
 V26,Motociclista traumatizado em colisão com outro veículo não-motorizado
@@ -1611,7 +1611,7 @@ V29,Motociclista traumatizado em outros acidentes de transporte e em acidentes d
 V30,Ocupante de um triciclo motorizado traumatizado em colisão com um pedestre ou um animal
 V31,Ocupante de um triciclo motorizado traumatizado em colisão com um veículo a pedal
 V32,Ocupante de um triciclo motorizado traumatizado em colisão com outro veículo a motor de duas ou três rodas
-V33,Ocupante de um triciclo motorizado traumatizado em colisão com um automóvel -  "pick up" ou caminhonete
+V33,Ocupante de um triciclo motorizado traumatizado em colisão com um automóvel -  pick up ou caminhonete
 V34,Ocupante de um triciclo motorizado traumatizado em colisão com um veículo de transporte pesado ou um ônibus
 V35,Ocupante de um triciclo motorizado traumatizado em colisão com um trem [comboio] ou um veículo ferroviário
 V36,Ocupante de um triciclo motorizado traumatizado em colisão com outro veículo não-motorizado
@@ -1621,7 +1621,7 @@ V39,Ocupante de um triciclo motorizado traumatizado em outros acidentes de trans
 V40,Ocupante de um automóvel [carro] traumatizado em colisão com um pedestre ou um animal
 V41,Ocupante de um automóvel [carro] traumatizado em colisão com um veículo a pedal
 V42,Ocupante de um automóvel [carro] traumatizado em colisão com outro veículo a motor de duas ou três rodas
-V43,Ocupante de um automóvel [carro] traumatizado em colisão com um automóvel [carro] -  "pick up" ou caminhonete
+V43,Ocupante de um automóvel [carro] traumatizado em colisão com um automóvel [carro] -  pick up ou caminhonete
 V44,Ocupante de um automóvel [carro] traumatizado em colisão com um veículo de transporte pesado ou um ônibus
 V45,Ocupante de um automóvel [carro] traumatizado em colisão com um trem [comboio] ou um veículo ferroviário
 V46,Ocupante de um automóvel [carro] traumatizado em colisão com outro veículo não-motorizado
