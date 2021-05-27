@@ -450,7 +450,7 @@ F39,Transtorno do humor [afetivo] não especificado
 F40,Transtornos fóbico-ansiosos
 F41,Outros transtornos ansiosos
 F42,Transtorno obsessivo-compulsivo
-F43,Reações ao "stress" grave e transtornos de adaptação
+F43,Reações ao stress grave e transtornos de adaptação
 F44,Transtornos dissociativos [de conversão]
 F45,Transtornos somatoformes
 F48,Outros transtornos neuróticos
@@ -1687,7 +1687,7 @@ W05,Queda envolvendo uma cadeira de rodas
 W06,Queda de um leito
 W07,Queda de uma cadeira
 W08,Queda de outro tipo de mobília
-W09,Queda envolvendo equipamento de "playground"
+W09,Queda envolvendo equipamento de playground
 W10,Queda em ou de escadas ou degraus
 W11,Queda em ou de escadas de mão
 W12,Queda em ou de um andaime
@@ -1961,10 +1961,10 @@ Z03,Observação e avaliação médica por doenças e afecções suspeitas
 Z04,Exame e observação por outras razões
 Z08,Exame de seguimento após tratamento por neoplasia maligna
 Z09,Exame de seguimento após tratamento de outras afecções que não neoplasias malignas
-Z10,Exame geral de rotina ("check up") de uma subpopulação definida
-Z11,Exame especial de rastreamento ("screening") de doenças infecciosas e parasitárias
-Z12,Exame especial de rastreamento ("screening") de neoplasias
-Z13,Exame especial de rastreamento ("screening") de outros transtornos e doenças
+Z10,Exame geral de rotina (check up) de uma subpopulação definida
+Z11,Exame especial de rastreamento (screening) de doenças infecciosas e parasitárias
+Z12,Exame especial de rastreamento (screening) de neoplasias
+Z13,Exame especial de rastreamento (screening) de outros transtornos e doenças
 Z20,Contato com e exposição a doenças transmissíveis
 Z21,Estado de infecção assintomática pelo vírus da imunodeficiência humana [HIV]
 Z22,Portador de doença infecciosa
@@ -1981,7 +1981,7 @@ Z32,Exame ou teste de gravidez
 Z33,Gravidez como achado casual
 Z34,Supervisão de gravidez normal
 Z35,Supervisão de gravidez de alto risco
-Z36,Rastreamento ("screening") pré-natal
+Z36,Rastreamento (screening) pré-natal
 Z37,Resultado do parto
 Z38,Nascidos vivos [nado-vivos] segundo o local de nascimento
 Z39,Assistência e exame pós-natal
