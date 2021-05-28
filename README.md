@@ -157,9 +157,17 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 > De maneira simplificada, como o maior problema foi o tamanho do banco, considerando as limitações técnicas do grupo e os recursos computacionais disponíveis no Google Colab, a primeira mudança adotada foi separar os dados de forma que um Estado de cada região do Brasl fosse contemplado, assim, houve o split para São Paulo, Bahia, Paraná, Pará e Goiás e a partir daí seria feita uma análise considerando um retrato regional. A seguir, foram analisados os dadoos únicos de cada variável e houve um tratamento colocando-os como categorias numéricas, para facilitar o tratamento pelo Python, foram retiradas as variáveis sem definição formal no dicionário de variáveis e com missing superior a 75% e o corte (5-95)% para retirada de outliers (excetuando-se as variáveis foco de estudo). Onde havia missing ou zeros de categoria, foram substituídos pela string 'vazio' e criando então uma categoria específica. No caso específico das variáveis de estudo, apenas v48 consta em todas as observações, v49 aparece em menos de 20% das observações e v82, v104 e v105 são bem pouco expressivos, de forma que eliminar os missings ou imputar valores seria uma prática complicada, assim, a opção foi categorizar e verificar a influência da categoria 'vazio'.   
 > * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
 > Considerando as variáveis foco de estudo, tivemo o seguinte cenário:
-> * São Paulo:
-![missing1](https://github.com/grnbatera/Data4health/blob/main/assets/spmissing1.png)
+> 
 
+
+
+
+----- | -----
+![Gráfico 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/g01.png) | ![Gráfico 02](https://github.com/grnbatera/IT305G/blob/main/Mídias/g02.png)
+![Gráfico 03](https://github.com/grnbatera/IT305G/blob/main/Mídias/g03.png) | ![Gráfico 04](https://github.com/grnbatera/IT305G/blob/main/Mídias/g04.png)
+![Gráfico 05](https://github.com/grnbatera/IT305G/blob/main/Mídias/g05.png) | ![Gráfico 06](https://github.com/grnbatera/IT305G/blob/main/Mídias/g06.png)
+![Gráfico 07](https://github.com/grnbatera/IT305G/blob/main/Mídias/g07.png) | ![Gráfico 08](https://github.com/grnbatera/IT305G/blob/main/Mídias/g08.png)
+![Gráfico 09](https://github.com/grnbatera/IT305G/blob/main/Mídias/g09.png) | ![Gráfico 10](https://github.com/grnbatera/IT305G/blob/main/Mídias/g10.png)
 
 
 > |Base de Dados  | Fonte | Descrição|
