@@ -214,7 +214,7 @@ Matriz de Missing | Total de Missing
 >
 >Além disso, pelos dados, ficou evidente que a regionalização dos diagnósticos em si seria inevitável, já que os comportamentos de CID-10 variam bastante conforme o estado. Todavia, alguns outros comportamentos atendem a um certo padrão, por exemplo:
 >
->As falhas de diagnóstico e os diagnósticos equivocados ocorrem mais para homens brancos e pardos (quando há declaração de raça) e o tempo médio de internação geralmente dobra quando há falha de diagnóstico e esta leva ao óbito do(a) paciente.    
+>As falhas de diagnóstico e os diagnósticos equivocados ocorrem mais para homens brancos e pardos (quando há declaração de raça) e o tempo médio de internação geralmente dobra quando há falha de diagnóstico e esta leva ao óbito do(a) paciente.  Em termos de óbito, as falhas de diagnóstico tem menor representatividade que os diagnósticos equivocados.  
 
 # Ferramentas
 
