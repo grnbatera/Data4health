@@ -24,7 +24,7 @@ Estrutura [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-
 
 ## `data`
 
-Neste projeto, através de dados externos, foram criadas as bases raw, que foram pré-processados, criando as bases intermediárias, que por sua vez foram transformados e enriquecidos, formando a base de dados final (processed) para data mining.
+Neste projeto, através de dados externos, foram criadas as bases raw, que foram pré-processados, criando as bases intermediárias, que por sua vez foram transformadas e enriquecidas, formando as bases de dados finais (processed) para data mining.
 
 Os dados external não possuem restrição de divulgação, considerando que estão anonimizados e possuem acesso direto pela Fioruz BigData, assim, estão disponíveis nos links abaixo e possuem este [Dicionário de Variáveis](https://github.com/grnbatera/Data4health/blob/main/assets/Dicion%C3%A1rio%20de%20Vari%C3%A1veis%20Banco%20Original.csv): 
 
