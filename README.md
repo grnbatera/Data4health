@@ -24,7 +24,7 @@ Estrutura [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-
 
 ## `data`
 
-Neste projeto, atraés de dados externos, foram crandas as bases raw, que foram pré-processados, criando as bases intermmedárias, que po sua vez foram tansformados e enriquecidos, formando a ase de dados final para data mining.
+Neste projeto, através de dados externos, foram criadas as bases raw, que foram pré-processados, criando as bases intermediárias, que por sua vez foram transformados e enriquecidos, formando a base de dados final (processed) para data mining.
 
 Os dados external não possuem restrição de divulgação, considerando que estão anonimizados e possuem acesso direto pela Fioruz BigData, assim, estão disponíveis nos links abaixo e possuem este [Dicionário de Variáveis](https://github.com/grnbatera/Data4health/blob/main/assets/Dicion%C3%A1rio%20de%20Vari%C3%A1veis%20Banco%20Original.csv): 
 
@@ -79,11 +79,11 @@ Todo o projeto foi elaborado em noteooks do Google Colaboratory, através da Lin
 
 ## `src`
 
-Como o projeto foi todo realzado em notebook do Google Colaboratory , não houve a necessidade de código fonte fora dos notebooks, todava, nesta pasta existe a documentação acerca do [Google Colab](https://github.com/grnbatera/Data4health/tree/main/src).
+Como o projeto foi todo realizado em notebook do Google Colaboratory , não houve a necessidade de código fonte fora dos notebooks, todavia, nesta pasta existe a documentação acerca do [Google Colab](https://github.com/grnbatera/Data4health/tree/main/src).
 
 ## `assets`
 
-Na pasta assets encontram-se as figuras referenciadas neste projeto, a apresentação do projeto em PDF, os dicionários de varáveis dos bancos external, raw, interim e  processed e umm dicionário das categorias e subcategorias do CID-10.
+Na pasta assets encontram-se as figuras referenciadas neste projeto, a apresentação do projeto em PDF, os dicionários de varáveis dos bancos external, raw, interim e  processed e um dicionário das categorias e subcategorias do CID-10.
 
 
 # Apresentação
@@ -176,13 +176,13 @@ Matriz de Missing | Total de Missing
 > * Q-Q plots: Nos links, temos os Q-Q plots de [São Paulo](https://colab.research.google.com/drive/11QUzieVMyBbsbAaUuPuxQGYpQ7E7WLgo#scrollTo=Qtw3A4I9fIAR&line=4&uniqifier=1), [Bahia](https://colab.research.google.com/drive/1QUllaWfJqJJtX0uoI0sG9Bk6yuN8UEqq#scrollTo=Ktcpy5QtfNoY&line=4&uniqifier=1), [Paraná](https://colab.research.google.com/drive/1Zwbb-r1J8za-85WLUjj7PP19BI8McT6s#scrollTo=Qtw3A4I9fIAR&line=3&uniqifier=1), [Pará](https://colab.research.google.com/drive/1fBKX7jXjrNBEQ8buTe2UydNJEAPHPz2e#scrollTo=Y1bR0DAJexeS&line=4&uniqifier=1), [Goiás](https://colab.research.google.com/drive/1_gEofDZiDsGX6L0BTPhjxAiPu68_nLdE#scrollTo=4fjZ6Mw7Jfrq&line=3&uniqifier=1) 
 > * Heatmap de Correlação para as varáveis de interesse: Nos links, temos os heatmaps de correlaçãoo para as varáveis v48, v49, v82, v104 e v105 de [São Paulo](https://colab.research.google.com/drive/11QUzieVMyBbsbAaUuPuxQGYpQ7E7WLgo#scrollTo=jg7VfXftOTBf&line=1&uniqifier=1), [Bahia](https://colab.research.google.com/drive/1QUllaWfJqJJtX0uoI0sG9Bk6yuN8UEqq#scrollTo=jg7VfXftOTBf&line=2&uniqifier=1), [Paraná](https://colab.research.google.com/drive/1Zwbb-r1J8za-85WLUjj7PP19BI8McT6s#scrollTo=jg7VfXftOTBf&line=1&uniqifier=1), [Pará](https://colab.research.google.com/drive/1fBKX7jXjrNBEQ8buTe2UydNJEAPHPz2e#scrollTo=jg7VfXftOTBf&line=2&uniqifier=1), [Goiás](https://colab.research.google.com/drive/1_gEofDZiDsGX6L0BTPhjxAiPu68_nLdE#scrollTo=jg7VfXftOTBf&line=2&uniqifier=1) 
 
-> Com base nesta análise preliminar foi possível constatar que embora as variáveis de foco de estudo tivessem grande diferença com relação a presença de dados, houve a correlação de algumas delas ccom outras variáveis do banco de forma que é possível um estudo mais aprofundado para verificar se de fato essas correlações se verificam, uma vez que graficamente não foi possível corroborar, já que as variáveis categóricas precisam de uma melhor análise com regressão logística e o fato de ser Big Data complicou um tanto fazer scatterplots considerando este tipo de regressão com os recursos computacionais disponíveis. 
+> Com base nesta análise preliminar foi possível constatar que embora as variáveis de foco de estudo tivessem grande diferença com relação a presença de dados, houve a correlação de algumas delas com outras variáveis do banco de forma que é possível um estudo mais aprofundado para verificar se de fato essas correlações se verificam, uma vez que graficamente não foi possível corroborar, já que as variáveis categóricas precisam de uma melhor análise com regressão logística e o fato de ser Big Data complicou um tanto fazer scatterplots considerando este tipo de regressão com os recursos computacionais disponíveis. 
 
 > |Base de Dados  | Fonte | Descrição|
 > |--|--|--| 
 > | [Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde - CID-10](http://www2.datasus.gov.br/cid10/V2008/cid10.htm)  | DataSUS  | CID - 10 em Língua Portuguesa e colaborativa com a OMS|
 
-> De forma geral, o banco de dados do CID-10 é mais um dicionário que um banco de dados propriamente, de forma, que após a análise constatamos nosso equívoco em elencar este dicionário como uma base de dados. Todavia, através dele foi possível compreender a lógica de funcionamento do CID-10. A hierarquia é composta por Capítulo > Grupo > Categoria > Subcategoria, assim, o diagnóstico final seria uma subcategoria. Um exemplo simples seria: subcategoria A010 (febre tifóide), categoria A01 (febres tifóides e paratifóides), grupo A00 a A09 (doenças infecciosas intestinais), Capítulo I (A00 a	B99 - Algumas doenças infecciosas e parasitárias). Este conhecimento foi fundamental para fazer uma limitação no que seria uma possível falha de diagnóstico e a limitação escolhida foi a subcategoria, uma vez que ela engloba uma possibilidade de 10 doenças distintas mas com sintomas semelhantes, passíveis de equívoco, logo, a possível falha estaria num segundo diagnóstico com categoria distinta da primeira, sinalizando que o profissional deveria fazer uma investigação mais profunda antes de fecchar o diagnóstico primário. 
+> De forma geral, o banco de dados do CID-10 é mais um dicionário que um banco de dados propriamente, de forma, que após a análise constatamos nosso equívoco em elencar este dicionário como uma base de dados. Todavia, através dele foi possível compreender a lógica de funcionamento do CID-10. A hierarquia é composta por Capítulo > Grupo > Categoria > Subcategoria, assim, o diagnóstico final seria uma subcategoria. Um exemplo simples seria: subcategoria A010 (febre tifóide), categoria A01 (febres tifóides e paratifóides), grupo A00 a A09 (doenças infecciosas intestinais), Capítulo I (A00 a	B99 - Algumas doenças infecciosas e parasitárias). Este conhecimento foi fundamental para fazer uma limitação no que seria uma possível falha de diagnóstico e a limitação escolhida foi a subcategoria, uma vez que ela engloba uma possibilidade de 10 doenças distintas mas com sintomas semelhantes, passíveis de equívoco, logo, a possível falha estaria num segundo diagnóstico com categoria distinta da primeira, sinalizando que o profissional deveria fazer uma investigação mais profunda antes de fechar o diagnóstico primário. 
 
 ### Integração entre Bases e Análise Exploratória
 
@@ -212,7 +212,7 @@ Matriz de Missing | Total de Missing
 >* Em PA: a) Equívocos:  W999 (Exposição a outros fatores ambientais artificiais e aos não especificados - local não especificado), H431 (Hemorragia do humor vítreo) , b) Falhas: Z574 (Exposição ocupacional a agentes tóxicos na agricultura), Z599 (Circunstâncias não especificadas econômicas ou de habitação); 
 >* Em GO: a) Equívocos:  W189 (Outras quedas no mesmo nível - local não especificado), V299 (Motociclista [qualquer] traumatizado em um acidente de trânsito não especificado) , b) Falhas: Z722 (Uso de droga), Z811 (História familiar de abuso de álcool).
 >
->Além disso, pelos dados, ficou evidente que a regionalzação dos diagnósticos em si seria invitável, já que os comportamentos de CID-10 variam bastante conforme o estado. Todavia, alguns outros comportamentos atendem a um certo padrão, por exemplo:
+>Além disso, pelos dados, ficou evidente que a regionalização dos diagnósticos em si seria inevitável, já que os comportamentos de CID-10 variam bastante conforme o estado. Todavia, alguns outros comportamentos atendem a um certo padrão, por exemplo:
 >
 >As falhas de diagnóstico e os diagnósticos equivocados ocorrem mais para homens brancos e pardos (quando há declaração de raça) e o tempo médio de internação geralmente dobra quando há falha de diagnóstico e esta leva ao óbito do(a) paciente.    
 
