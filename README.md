@@ -296,7 +296,7 @@ Gráficos Estatísticos | Gráficos Estatísticos
 >
 >*Data Mining*: nesta etapa, foram realizadas as análises estatísticas do banco, contudo, mesmo utilizando o Dask Dataframe, para que houvesse o cálculo dos parâmetros estatísticos, gráficos de scatterplot, histogrmas, boxplots, q-q plots e  heatmaps de correlação era necessário o uso do dask.Dataframe.compute() e isto significava um uso de recursos computacional toda vez que era necessário fazer o cálculo, assim, para evitar esse tipo de situação, o Dask Dataframe computado era convertido em arquivo pickle, de forma que qualquer variável do Google Colab pode ser baixado em formato pickle e depois reinserido no código sem o uso intenso de recurso computacional. Este método estava longe de ser o ideal, era uma computação pseudo-paralela que conseguimos inferir com nossa pouca experiência em paralelismo, de forma que todo o processo foi bastante custoso e levou a notebooks rodando por mais de 36 horas, dado o tamanho dos dados, e levou ao atraso da entrega 02, mas foi possível a realização das análises e principalmente ao fazer as correlações por Spearman da variável v258, que representa a variável dependente deste projeto, é possível verificar que poucas variáveis possuem correlação posivita e negativa maior que 0.3, de forma que a maioria das variáveis estão fracamente correlacionadas ou não correlacionadas com a variável dependente, conforme mostra a figura:
 >
-![Gráfico 01](https://github.com/grnbatera/Data4health/blob/main/assets/v52a.png)
+![Gráfico 01](https://github.com/grnbatera/Data4health/blob/main/assets/v258a.png)
 >
 >Código de computação do Dask Dataframe e dumping em arquivo pickle:
 
@@ -413,6 +413,8 @@ Importância |	Variável |	Descrição
 9 |	v79 |	Definição do número de filhos do paciente
 10 |	v249 |	Dias de permanência
 
+>O resultado para os demais modelos de machine learning utilizados para a análise podem ser vistos em  [SP](https://github.com/grnbatera/Data4health/blob/main/notebook/ML_SP.ipynb), [BA](https://github.com/grnbatera/Data4health/blob/main/notebook/ML_BA.ipynb), [PR](https://github.com/grnbatera/Data4health/blob/main/notebook/ML_PR.ipynb), [PA](https://github.com/grnbatera/Data4health/blob/main/notebook/ML_PA.ipynb) E [GO](https://github.com/grnbatera/Data4health/blob/main/notebook/ML_GO.ipynb).
+>
 # Discussão
 >A) *Resultados Estatísticos*: Os principais resultados demonstram que as falhas de diagnóstico e os diagnósticos equivocados realmente são exceções e ocorrem mais para homens brancos e pardos (quando há declaração de raça), fato decorrente de fatores sócio-econômicos, uma vez que esse grupo tem maior acesso aos hospitais; o tempo médio de internação geralmente dobra quando há falha de diagnóstico e esta leva ao óbito do(a) paciente; em termos de óbito, as falhas de diagnóstico tem menor representatividade que os diagnósticos equivocados; no geral, neoplasias são as doenças com maior incidência de falhas de diagnóstico. Por fim, no banco de dados há falta de dados de diagnósticos secundários a partir de 2015;
 >
