@@ -295,8 +295,11 @@ Gráficos Estatísticos | Gráficos Estatísticos
 >*Data Preparation*: nesta etapa começamos de fato a trabalhar com os bancos de dados e fomos colocados frente a um novo desafio: trabalhar com Big Data. Nossa falta de experiência com este tipo de dados foi responsável pela primeira grande dificuldade do projeto, que poderia inclusive nos fazer mudar radicalmente de objetivo, contudo, assumimos as consequências de nossa escolha e seguimos o projeto com algumas modificações: ao invés de analisar o SUS como um todo, pegar os maiores Estados das Regiões do Brasil, tentando manter um retrato do SUS no Brasil, mas com um significativa redução do consumo de recursos computacionais. Além disso, as bases [Cadastro Nacional de Estabelecimentos de Saúde - CNES](https://bigdata-metadados.icict.fiocruz.br/dataset/cadastro-nacional-de-estabelecimentos-de-saude-cnes/resource/7bcf4f68-f2e9-4e06-87b5-229358702efc) e [Estatísticas Sociais - IBGE](https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html) foram descartadas sem que houvesse uma análise prévia, já que eram bases mais secundárias que só ajudariam a inserir features para melhorar a análise, mas cujo custo computacional seria bastante grande. Uma vez tomadas as decisões, era preciso lidar com os recursos computacionais do Google Colab e isto nos levou à computação paralela através da biblioteca Dask. Com o auxílio do Dask Dataframe fizemos então a manipulação dos arquivos raw para a retirada de varáveis sem descrição no dicionário de variáveis e com índice de NaN maior que 75%, além de criar um subset com todas as cidades dos Estados de São Paulo, Bahia, Paraná, Pará e Goiás, regularizar os tipos existentes em cada variável, fazer a deduplicação e, por fim, categorizar as variáveis uma vez que no universo de centenas de milhares de observações, os valores se comportavam de forma categórica;
 >
 >*Data Mining*: nesta etapa, foram realizadas as análises estatísticas do banco, contudo, mesmo utilizando o Dask Dataframe, para que houvesse o cálculo dos parâmetros estatísticos, gráficos de scatterplot, histogrmas, boxplots, q-q plots e  heatmaps de correlação era necessário o uso do dask.Dataframe.compute() e isto significava um uso de recursos computacional toda vez que era necessário fazer o cálculo, assim, para evitar esse tipo de situação, o Dask Dataframe computado era convertido em arquivo pickle, de forma que qualquer variável do Google Colab pode ser baixado em formato pickle e depois reinserido no código sem o uso intenso de recurso computacional. Este método estava longe de ser o ideal, era uma computação pseudo-paralela que conseguimos inferir com nossa pouca experiência em paralelismo, de forma que todo o processo foi bastante custoso e levou a notebooks rodando por mais de 36 horas, dado o tamanho dos dados, e levou ao atraso da entrega 02, mas foi possível a realização das análises e principalmente ao fazer as correlações por Spearman da variável v258, que representa a variável dependente deste projeto, é possível verificar que poucas variáveis possuem correlação posivita e negativa maior que 0.3, de forma que a maioria das variáveis estão fracamente correlacionadas ou não correlacionadas com a variável dependente, conforme mostra a figura:
->
+
+Heatmap de correlação para v258 |
+----- |
 ![Gráfico 01](https://github.com/grnbatera/Data4health/blob/main/assets/v258a.png)
+
 >
 >Código de computação do Dask Dataframe e dumping em arquivo pickle:
 
@@ -372,7 +375,7 @@ n=gc.collect()
 
 >Em termos de Aprendizado de Máquina, o classificador por Gradient Boosting foi o que obteve melhor acurácia, especificidade e sensibilidade, de forma que os resultados enontrados são os seguintes:
 
-Matrix de Confusão - Dados de Treino | Matrix de Confusão - Dados de Teste
+Matriz de Confusão - Dados de Treino | Matriz de Confusão - Dados de Teste
 ----- | -----
 ![Gráfico 01](https://github.com/grnbatera/Data4health/blob/main/assets/01sp.png) | ![Gráfico 02](https://github.com/grnbatera/Data4health/blob/main/assets/02sp.png)
 ![Gráfico 01](https://github.com/grnbatera/Data4health/blob/main/assets/01ba.png) | ![Gráfico 02](https://github.com/grnbatera/Data4health/blob/main/assets/02ba.png)
@@ -451,7 +454,7 @@ Importância |	Variável |	Descrição
 >
 >1) Análise dos diagnósticos médicos através do uso do Deep Learning para Big Data: desta forma talvez fosse viável um classificador funcional para as 3 classes de diagnóstico e que poderia ser implementado no SUS para o auxílio de diagnóstico;
 >
-2) O SIHSUS é uma base que representa apenas os hospitais, de forma que há uma gama muito grande de unidades de atendimento não contempladas, assim, se houver a possibilidade da inclusão de mais databases com outros tipos de unidades, o modelo teria um retrato mais fiel do sistema;
+>2) O SIHSUS é uma base que representa apenas os hospitais, de forma que há uma gama muito grande de unidades de atendimento não contempladas, assim, se houver a possibilidade da inclusão de mais databases com outros tipos de unidades, o modelo teria um retrato mais fiel do sistema;
 >
 >3) Ter acesso à algumas features como exames pedidos e resultados obtidos poderiam tornar o modelo mais completo e confiável.
 >
